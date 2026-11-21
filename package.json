@@ -1,0 +1,37 @@
+{
+  "name": "linocut",
+  "version": "0.1.0",
+  "description": "Copy-paste React + Tailwind components with a handcrafted paper-and-ink design language. Own the code.",
+  "type": "module",
+  "bin": {
+    "linocut": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "registry"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js list",
+    "preview:dev": "vite --config preview/vite.config.ts",
+    "preview:build": "vite build --config preview/vite.config.ts",
+    "typecheck": "tsc -p preview/tsconfig.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}

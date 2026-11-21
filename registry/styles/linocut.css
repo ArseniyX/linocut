@@ -1,0 +1,41 @@
+/* linocut design tokens — Tailwind v4.
+   Paper, ink, and a hard offset shadow. Edit freely; it's your file. */
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f6f1e7;
+  --color-paper-2: #ede6d6;
+  --color-ink: #1c1a17;
+  --color-ink-soft: #57524a;
+  --color-rust: #c2410c;
+  --color-moss: #3f6212;
+  --color-sun: #e8b931;
+  --color-line: #1c1a17;
+  /* text on sun/moss/rust fills — fixed, so it stays readable in dark mode */
+  --color-on-sun: #1c1a17;
+  --color-on-moss: #f6f1e7;
+  --color-on-rust: #f6f1e7;
+
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --shadow-stamp: 3px 3px 0 0 var(--color-ink);
+  --shadow-stamp-sm: 2px 2px 0 0 var(--color-ink);
+}
+
+@layer base {
+  body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+  h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; }
+  ::selection { background: var(--color-sun); color: var(--color-ink); }
+}
+
+.dark {
+  --color-paper: #181613;
+  --color-paper-2: #23201b;
+  --color-ink: #f2ecdf;
+  --color-ink-soft: #a8a090;
+  --color-line: #f2ecdf;
+}

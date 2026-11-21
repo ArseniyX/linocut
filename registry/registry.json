@@ -1,0 +1,104 @@
+{
+  "ui": {
+    "button": {
+      "file": "button.tsx",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": []
+    },
+    "input": {
+      "file": "input.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "textarea": {
+      "file": "textarea.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "label": {
+      "file": "label.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "badge": {
+      "file": "badge.tsx",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": []
+    },
+    "card": {
+      "file": "card.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "alert": {
+      "file": "alert.tsx",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": []
+    },
+    "switch": {
+      "file": "switch.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "checkbox": {
+      "file": "checkbox.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "separator": {
+      "file": "separator.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "progress": {
+      "file": "progress.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "skeleton": {
+      "file": "skeleton.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "avatar": {
+      "file": "avatar.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "kbd": {
+      "file": "kbd.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "select": {
+      "file": "select.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "table": {
+      "file": "table.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "tabs": {
+      "file": "tabs.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    },
+    "dialog": {
+      "file": "dialog.tsx",
+      "dependencies": [],
+      "registryDependencies": []
+    }
+  },
+  "baseDependencies": [
+    "clsx",
+    "tailwind-merge"
+  ]
+}
