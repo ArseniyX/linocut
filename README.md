@@ -5,6 +5,8 @@ Hard edges, flat colour, offset "stamp" shadows. No runtime package: the code la
 
 **[Live demo →](https://arseniyx.github.io/linocut/)**
 
+[![linocut preview](docs/screenshot.jpg)](https://arseniyx.github.io/linocut/)
+
 ## Quick start
 
 ```bash
