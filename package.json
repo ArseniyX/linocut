@@ -2,6 +2,26 @@
   "name": "linocut",
   "version": "0.1.0",
   "description": "Copy-paste React + Tailwind components with a handcrafted paper-and-ink design language. Own the code.",
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "tailwind-v4",
+    "ui-components",
+    "component-library",
+    "design-system",
+    "shadcn",
+    "copy-paste",
+    "cli"
+  ],
+  "homepage": "https://arseniyx.github.io/linocut/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArseniyX/linocut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArseniyX/linocut/issues"
+  },
+  "author": "ArseniyX",
   "type": "module",
   "bin": {
     "linocut": "./bin/cli.js"

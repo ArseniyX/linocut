@@ -61,4 +61,4 @@ The showcase in `preview/` is deployed to GitHub Pages by `.github/workflows/pag
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
