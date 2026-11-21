@@ -1,7 +1,7 @@
 {
   "name": "linocut",
   "version": "0.2.0",
-  "description": "Copy-paste React + Tailwind components with a handcrafted paper-and-ink design language. Own the code.",
+  "description": "Neobrutalist copy-paste React + Tailwind v4 components with a paper-and-ink look. A dependency-light shadcn/ui alternative. Own the code.",
   "keywords": [
     "react",
     "tailwindcss",
@@ -11,7 +11,15 @@
     "design-system",
     "shadcn",
     "copy-paste",
-    "cli"
+    "cli",
+    "neobrutalism",
+    "neo-brutalism",
+    "brutalist",
+    "shadcn-alternative",
+    "react-components",
+    "ui-kit",
+    "dark-mode",
+    "tailwind"
   ],
   "homepage": "https://arseniyx.github.io/linocut/",
   "repository": {
